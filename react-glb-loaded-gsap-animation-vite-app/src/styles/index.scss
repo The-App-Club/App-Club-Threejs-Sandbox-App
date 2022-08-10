@@ -1,0 +1,21 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  .loading {
+    overflow: hidden;
+    touch-action: none;
+  }
+}
+
+body {
+  overflow: hidden;
+  overflow-y: auto;
+  font-family: 'Inter', sans-serif;
+}
